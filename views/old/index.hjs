@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>QUT Exchange Buddy</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="stylesheets/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a  href="#">
+          <img class="navbar-logo" alt="Brand" src="/images/logo.png">
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a class="navbar-item" href="#">QUTEB</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="about">ABOUT</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#contact">EVENTS</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#contact">GALLERY</a>
+          </li>
+          <li >
+            <a class="navbar-item" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  
+  <div class="container">
+    
+    <div class="header-image center col-md-12">
+      <div>
+        <a href="/">
+          <img src="/images/banner.png" class="col-md-12">
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-md-6" >
+      <img src="/images/quteb_fire.jpg" class="col-md-12">
+
+      <p id="index_quote" class="col-md-11">
+        "QUTEB made my exchange experience so much better, seriously the best club in the world" - Jorgen, Denmark
+      </p>
+
+    </div>
+
+    <div class="col-md-6">
+      <p>
+       In QUT Exchange buddies we always say: Let's put another shrimp on the barbie!
+     </p>
+
+   </div>
+
+ </div>
+
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script href="jquery/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script href="jquery/jquery.min.js"><\/script>')</script>
+    <script href="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+  </html>

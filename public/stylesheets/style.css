@@ -14,18 +14,16 @@
 }
 .navbar .navbar-collapse {
   text-align: center;
-  min-height: 80px;
 }
 .navbar-item {
   font-size: 16px;
-  min-height: 80px;
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
 }
 .navbar .nav > li > a,
 .navbar .nav > li {
-  line-height: 50px;
+  line-height: 30px;
   color: #f2668f;
 }
 .navbar-default .navbar-nav > li > a:hover,
@@ -51,6 +49,13 @@ body {
   style: bold;
   font-size: 20px;
 }
+.index_image_div {
+  padding-top: 30px;
+}
 .index_image {
-  width: 225px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.portrait {
+  padding: 5px;
 }

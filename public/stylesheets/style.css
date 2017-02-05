@@ -3,13 +3,14 @@
   max-height: 80px;
   padding: 10px;
 }
-.navbar-nav>li>a {
-  line-height: 50px;
+.navbar {
+  background-color: #fff;
 }
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
+  background-color: #fff;
 }
 .navbar .navbar-collapse {
   text-align: center;
@@ -22,8 +23,22 @@
   text-align: center;
   vertical-align: middle;
 }
+.navbar .nav > li > a,
+.navbar .nav > li {
+  line-height: 50px;
+  color: #f2668f;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f2668f;
+  border-top-style: solid;
+}
+.active {
+  color: #f2668f;
+  border-top-style: solid;
+}
 body {
-  padding-top: 80px;
+  padding-top: 380px;
   font-size: 15px;
   color: #808080;
 }
@@ -35,4 +50,7 @@ body {
   padding-bottom: 10px;
   style: bold;
   font-size: 20px;
+}
+.index_image {
+  width: 225px;
 }

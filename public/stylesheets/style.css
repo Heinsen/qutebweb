@@ -71,3 +71,9 @@ body {
   object-fit: cover;
   padding: 5px;
 }
+.membership_image {
+  max-width: 100%;
+  object-fit: cover;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

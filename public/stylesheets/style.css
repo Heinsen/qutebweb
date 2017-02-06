@@ -36,7 +36,8 @@
   border-top-style: solid;
 }
 body {
-  padding-top: 380px;
+  padding-top: 340px;
+  padding-bottom: 200px;
   font-size: 15px;
   color: #808080;
 }
@@ -55,6 +56,11 @@ body {
   style: bold;
   font-size: 20px;
   padding-top: 20px;
+}
+.membership_subtitle {
+  style: bold;
+  font-size: 17px;
+  padding-top: 10px;
 }
 .index_image_div {
   padding-top: 30px;

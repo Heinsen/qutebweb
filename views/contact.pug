@@ -3,5 +3,22 @@ extends layout
 block content
 
 	.container
-		div.col-md-10.col-md-offset-1
-			Membership
+		row
+			div.col-md-5.col-md-offset-1
+				div#contact_map
+			div.col-md-5.col-md-offset-1
+				.div#index_title
+					| Contact
+
+				.p|The Team: <br />
+				|President
+				|Caitlin Dauth <br /> <br />
+				|Treasurer <br /> 
+				|Cammille Westerman <br /> <br />
+				|Secretary <br />
+				|Ellie Colgan <br />  <br />
+				a(href="www.facebook.com/qutexchangebuddies") Facebook link
+
+block script
+	sricpt(src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false')
+	script(src='javascripts/googlemap.js')

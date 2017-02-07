@@ -42,7 +42,9 @@ body {
   color: #808080;
 }
 .header-image {
-  height: 200px;
+  max-width: 100%;
+  max-height: 246px;
+  object-fit: cover;
 }
 #index_title {
   color: #000;
@@ -104,4 +106,10 @@ body {
   height: 200px;
   object-fit: cover;
   padding: 5px;
+}
+#contact_map {
+  width: 500px;
+  height: 300px;
+  border-style: solid;
+  border-width: 1px;
 }

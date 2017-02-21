@@ -1,15 +1,24 @@
-.navbar.navbar-default.navbar-fixed-top
-  .container
-    img(class='col-md-10, col-md-offset-1 header-image', src='/images/banner_new.png')
-    div(id='navbar', class=['navbar-collapse','collapse'])
-       .col-md-12.ul.nav.navbar-nav
-         li.col-md-2.col-md-offset-1
-           a(class=(menu === 'home' ? 'active' : ''), id='HOME', href='/#') HOME
-         li.col-md-2
-           a(class=(menu === 'membership' ? 'active' : ''), id='MEMBERSHIP', href='/membership') MEMBERSHIP
-         li.col-md-2
-           a(class=(menu === 'faq' ? 'active' : ''), id='FAQS', href='/faq') FAQS
-         li.col-md-2
-           a(class=(menu === 'event' ? 'active' : ''), id='EVENTS', href='/event') EVENTS
-         li.col-md-2
-           a(class=(menu === 'contact' ? 'active' : ''), id='CONTACT', href='/contact') CONTACT
+.navbar.navbar-default.navbar-fixed-top#nav
+  .container-fluid
+    row
+      div.col-md-12.col-lg-8.col-lg-offset-2
+        div(class=['navbar-collapse','collapse'])
+          img(class='col-md-10 col-md-offset-1 header-image', src='/images/banner_new.png')
+      div.col-md-10.col-md-offset-1.col-lg-6.col-lg-offset-3
+        div(id='mainNav', class=['navbar-collapse','collapse'])
+          ul#navlist.nav.nav-justified
+            li.col-md-2.col-md-offset-1.custom-navbar-item
+              a(class=(menu === 'home' ? 'active' : ''), id='HOME', href='/#') HOME
+            li.col-md-2.custom-navbar-item
+              a(class=(menu === 'membership' ? 'active' : ''), id='MEMBERSHIP', href='/membership') MEMBERSHIP
+            li.col-md-2.custom-navbar-item
+              a(class=(menu === 'faq' ? 'active' : ''), id='FAQS', href='/faq') FAQS
+            li.col-md-2.custom-navbar-item
+              a(class=(menu === 'event' ? 'active' : ''), id='EVENTS', href='/event') EVENTS
+            li.col-md-2.custom-navbar-item
+              a(class=(menu === 'contact' ? 'active' : ''), id='CONTACT', href='/contact') CONTACT
+    .navbar-header
+      button.navbar-toggle(data-toggle='collapse' data-target='#mainNav')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar

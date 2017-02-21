@@ -15,8 +15,8 @@
 .navbar .navbar-collapse {
   text-align: center;
 }
-.navbar-item {
-  font-size: 16px;
+.custom-navbar-item {
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
@@ -42,8 +42,6 @@ body {
   color: #808080;
 }
 .header-image {
-  max-width: 100%;
-  max-height: 246px;
   object-fit: cover;
 }
 #index_title {

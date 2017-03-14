@@ -15,6 +15,7 @@ RUN mkdir -p /usr/src && cp -a /tmp/node_modules /usr/src/
 WORKDIR /usr/src
 ADD . /usr/src
 
+ENV env release
 EXPOSE 3000
 
 CMD ["nodemon", "-L", "/usr/src/bin/www"]

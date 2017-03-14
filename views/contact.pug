@@ -7,7 +7,7 @@ block content
 			row
 				div.col-md-8
 					div#contact_map
-				div.col-md-3.col-md-offset-1
+				div.col-md-3
 					.div#index_title
 						| Contact
 
@@ -18,8 +18,7 @@ block content
 					|Cammille Westerman <br /> <br />
 					|Secretary <br />
 					|Ellie Colgan <br />  <br />
-					a(href="www.facebook.com/qutexchangebuddies") Facebook link
+					.p #[a(href="https://www.facebook.com/qutexchangebuddies") Facebook link]
 
 block append script
-	sricpt(src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false')
 	script(src='javascripts/googlemap.js')

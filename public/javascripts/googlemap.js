@@ -1,5 +1,5 @@
 window.onload = function(){
-   $.getScript('https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false', function()
+   $.getScript('https://maps.googleapis.com/maps/api/js', function()
 	{
     	var mapOptions = {
     		center: new google.maps.LatLng(-27.477356,153.0284231),

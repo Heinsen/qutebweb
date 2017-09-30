@@ -1,0 +1,9 @@
+%%Initial connect to server
+ssh root@111.67.16.70
+pwd: eqyvebE@Yg
+
+
+%%On server
+docker build -t qutebweb .
+
+docker run --name qutebweb -p 80:3000 -i -t qutebweb

@@ -18,4 +18,4 @@ ADD . /usr/src
 ENV env release
 EXPOSE 3000
 
-CMD ["nodemon", "-L", "/usr/src/bin/www"]
+CMD ["pm2", "start", "app.js"]

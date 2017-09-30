@@ -16,6 +16,6 @@ $('.header-image').load(function() {
 });
 
 function setPaddingTop() {
-	var h = $('#nav').height() + 20;
-   document.body.style.paddingTop = h + 'px';
+	//var h = $('#nav').height() + 20;
+   //document.body.style.paddingTop = h + 'px';
 }

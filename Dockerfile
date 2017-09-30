@@ -3,8 +3,8 @@ FROM node:latest
 
 MAINTAINER Caitlin Dauth <caitlin.dauth@gmail.com>
 
-# use nodemon for development
-RUN npm install --global nodemon
+# use pm2 for running the server
+RUN npm install pm2 -g
 
 # use cached layer for node modules
 ADD package.json /tmp/package.json
@@ -18,4 +18,4 @@ ADD . /usr/src
 ENV env release
 EXPOSE 3000
 
-CMD ["pm2", "start", "app.js"]
+CMD ["pm2-docker", "process.yml"]

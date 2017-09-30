@@ -4,6 +4,6 @@ pwd: eqyvebE@Yg
 
 
 %%On server
-docker build -t qutebweb .
+docker build --no-cache -t qutebweb .
 
 docker run --name qutebweb -p 80:3000 -i -t qutebweb
